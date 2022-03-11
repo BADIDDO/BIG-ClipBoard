@@ -1,0 +1,39 @@
+@media (max-width : 887px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    header .logo {
+        height: 30vh;
+    }
+    .about {
+        margin-top:0px;
+        margin-bottom: 0px;
+    }
+    .history h1 {
+        font-size: 34px;
+    }
+    .btn .ios , .btn .mac {
+
+        padding: 15px 20px;
+        }
+        .mac-info .mac-logo {
+            display: none;
+        }
+        .mac-about {
+            justify-content: center;
+            text-align: center;
+        }
+        .mac-about .first p {
+            width: 100%;
+        }
+        .company {
+            flex-direction: column;
+        }
+        .footer-info{
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            line-height: 2;
+        }
+}
